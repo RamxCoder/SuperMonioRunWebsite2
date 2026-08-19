@@ -127,30 +127,15 @@
             margin-top: 40px;
         }
         .compliance-grid {
-            max-width: 1100px;
+            max-width: 800px;
             margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 30px;
+            text-align: left;
+            display: block;
         }
         .compliance-col h4 {
             color: var(--primary);
-            margin-bottom: 15px;
-            font-size: 1.1rem;
-        }
-        .compliance-col ul {
-            list-style: none;
-        }
-        .compliance-col ul li {
-            margin-bottom: 8px;
-        }
-        .compliance-col ul li a {
-            color: #a4b0be;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        .compliance-col ul li a:hover {
-            color: white;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
         }
         footer {
             text-align: center;
@@ -175,7 +160,6 @@
     <div class="container">
         <h2 class="section-title">Game Demos & Worlds</h2>
         <div class="features-grid">
-            <!-- Hero Mascot Demo now uses your new Untitled project (20).jpg image -->
             <div class="feature-card">
                 <img src="Untitled project (20).jpg" alt="Hero Mascot Demo">
                 <div class="feature-content">
@@ -214,33 +198,25 @@
         </div>
     </div>
 
-    <!-- Compliance Section -->
-    <div class="compliance-section" id="legal">
+    <!-- Compliance Section with Privacy Policy -->
+    <div class="compliance-section" id="privacy">
         <div class="compliance-grid">
-            <div class="compliance-col">
-                <h4>Legal & Policies</h4>
-                <ul>
-                    <li><a href="#privacy">Privacy Policy</a></li>
-                    <li><a href="#terms">Terms & Conditions</a></li>
-                    <li><a href="#refund">Refund & Cancellation Policy</a></li>
-                </ul>
-            </div>
-            <div class="compliance-col">
-                <h4>Support</h4>
-                <ul>
-                    <li><a href="mailto:supermoniorunsupport@gmail.com">Contact Support</a></li>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.tstlabs.supermoniorun">Google Play Store</a></li>
-                </ul>
-            </div>
-            <div class="compliance-col">
-                <h4>TST Labs</h4>
-                <p style="color: #a4b0be; font-size: 0.9rem;">Building high-performance interactive multiplayer mobile entertainment experiences.</p>
+            <div class="compliance-col" style="margin-bottom: 30px;">
+                <h4>Privacy Policy</h4>
+                <p style="color: #a4b0be; font-size: 0.95rem; line-height: 1.7; margin-bottom: 20px;">
+                    Super Monio Run does not intentionally collect personal information from players for ordinary Game use. Players can enter a username and join the multiplayer server without creating a traditional account. We do not collect or store unnecessary personal user data through our app or website other than standard operational data required for multiplayer functionality and Google Play services.
+                </p>
+                <h4 style="font-size: 1.1rem;">Support & Contact</h4>
+                <p style="color: #a4b0be; font-size: 0.95rem; line-height: 1.5;">
+                    If you have any questions or suggestions about our Privacy Policy or services, please contact us at: 
+                    <a href="mailto:supermoniorunsupport@gmail.com" style="color: var(--secondary); text-decoration: underline;">supermoniorunsupport@gmail.com</a>
+                </p>
             </div>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2026 TST Labs. All rights reserved. Super Monio: Multiplayer is a registered trademark.</p>
+        <p>&copy; 2026 Crs Studios. All rights reserved. Super Monio Run is a registered trademark.</p>
     </footer>
 
 </body>

@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melto Run: Online Multiplayer - Official Landing Page</title>
+    
+    <!-- JavaScript WWW-to-Non-WWW Auto Redirect -->
+    <script>
+        if (window.location.hostname === 'www.meltorun.netlify.app') {
+            window.location.replace('https://meltorun.netlify.app' + window.location.pathname + window.location.search);
+        }
+    </script>
+
     <style>
         :root {
             --primary: #ff4757;
